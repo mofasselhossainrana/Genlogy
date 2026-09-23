@@ -17,16 +17,18 @@ const links = [['Home', '/'], ['Services', '/services'], ['Projects', '/projects
 
 export function Navbar() {
   const [open, setOpen] = useState(false)
-  return <header className="site-header"><div className="shell nav">
-    <Link className="brand" to="/" aria-label="Genlogy home"><img src={logo} alt="Genlogy" /></Link>
-    <nav className="desktop-nav" aria-label="Main navigation">{links.map(([label, to]) => <NavLink key={to} to={to} end={to === '/'}>{label}</NavLink>)}</nav>
-    <Link className="nav-contact" to="/contact">Start a conversation <Icon name="arrow" size={16} /></Link>
-    <button className="menu-button" onClick={() => setOpen(true)} aria-label="Open menu"><Icon name="menu" /></button>
+  return <>
+    <header className="site-header"><div className="shell nav">
+      <Link className="brand" to="/" aria-label="Genlogy home"><img src={logo} alt="Genlogy" /></Link>
+      <nav className="desktop-nav" aria-label="Main navigation">{links.map(([label, to]) => <NavLink key={to} to={to} end={to === '/'}>{label}</NavLink>)}</nav>
+      <Link className="nav-contact" to="/contact">Start a conversation <Icon name="arrow" size={16} /></Link>
+      <button className="menu-button" onClick={() => setOpen(true)} aria-label="Open menu"><Icon name="menu" /></button>
+    </div></header>
     {open && <div className="mobile-overlay" onClick={() => setOpen(false)}><nav className="mobile-drawer" onClick={e => e.stopPropagation()} aria-label="Mobile navigation">
       <div className="drawer-top"><Link className="brand" to="/" onClick={() => setOpen(false)}><img src={logo} alt="Genlogy" /></Link><button className="menu-button" onClick={() => setOpen(false)} aria-label="Close menu"><Icon name="close" /></button></div>
       {links.map(([label, to], index) => <NavLink key={to} to={to} end={to === '/'} onClick={() => setOpen(false)}><span>0{index + 1}</span>{label}<Icon name="arrow" /></NavLink>)}
     </nav></div>}
-  </div></header>
+  </>
 }
 
 export function Footer() { return <footer className="site-footer"><div className="shell footer-grid"><div><Link className="brand footer-brand" to="/"><img src={logo} alt="Genlogy" /></Link><p>Technology built for real-world problems.</p></div><div><p className="eyebrow">Navigate</p>{links.slice(0, 5).map(([label, to]) => <Link key={to} to={to}>{label}</Link>)}</div><div><p className="eyebrow">Connect</p><a href="mailto:mofasselhossainrana@gmail.com">mofasselhossainrana@gmail.com</a><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></div></div><div className="shell footer-bottom"><span>© {new Date().getFullYear()} Genlogy. Built with intent.</span><span>Software × AI × IoT</span></div></footer> }
