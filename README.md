@@ -1,16 +1,173 @@
-# React + Vite
+# Genlogy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Technology Solutions for Modern Businesses
 
-Currently, two official plugins are available:
+Genlogy is a technology solutions platform focused on helping businesses, startups, and individuals turn ideas into practical digital products.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+We bring together **Full-Stack Web Development, AI/ML, IoT, and modern digital technologies** to design and build solutions that are useful, scalable, and built around real-world needs.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 What We Do
 
-## Expanding the ESLint configuration
+Genlogy provides technology services across multiple areas:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌐 Full-Stack Web Development
+
+We build modern, responsive, and user-focused web applications from frontend to backend.
+
+* Business websites
+* Web applications
+* Custom dashboards
+* REST APIs
+* Authentication systems
+* Database-driven applications
+* Custom web solutions
+
+### 🤖 AI & Machine Learning
+
+We explore and build intelligent solutions using modern AI and machine learning technologies.
+
+* AI-powered applications
+* Machine learning solutions
+* AI integrations
+* Automation
+* Intelligent features for web applications
+
+### 🔌 IoT & Embedded Solutions
+
+We work with connected devices and embedded technologies to turn physical systems into practical digital solutions.
+
+* IoT prototypes
+* Sensor-based systems
+* Embedded solutions
+* Device-to-web integration
+* Automation and monitoring systems
+
+---
+
+## 💡 Our Approach
+
+At Genlogy, we focus on solving problems rather than simply delivering code.
+
+Our development process is centered around:
+
+**Understand → Design → Build → Test → Improve**
+
+We aim to understand the requirement first, choose the appropriate technology, build the solution, and continuously improve it based on real-world needs.
+
+---
+
+## 🛠️ Technology Stack
+
+Our projects may use technologies such as:
+
+**Frontend**
+
+* React
+* JavaScript
+* HTML
+* CSS
+
+**Backend**
+
+* Python
+* Django
+* Django REST Framework
+
+**Database**
+
+* PostgreSQL
+
+**AI/ML**
+
+* Python
+* Machine Learning
+* AI technologies
+
+**IoT & Embedded**
+
+* Raspberry Pi
+* GPIO
+* Sensors
+* Embedded systems
+
+**Tools**
+
+* Git
+* GitHub
+* VS Code
+* REST APIs
+
+---
+
+## 📂 Projects
+
+This repository contains the source code for the Genlogy website and its project showcase.
+
+Some projects demonstrate our practical experience across different areas of technology, including web development and embedded systems.
+
+### Featured Projects
+
+* **Somadhan (Student Help Desk)**
+  A full-stack student help desk application built with React, Django REST Framework, and PostgreSQL.
+
+* **Raspberry Pi FM Transmitter**
+  An experimental embedded project exploring software-controlled FM signal generation and short-range wireless audio transmission using Raspberry Pi.
+
+More projects and solutions will be added over time.
+
+---
+
+## 🎯 Our Vision
+
+Our goal is to build technology that is **practical, accessible, and useful**.
+
+We want to help turn ideas into working digital products—from a simple business website to complete web applications, intelligent AI-powered systems, and connected IoT solutions.
+
+---
+
+## 🌍 Website
+
+Visit the Genlogy website to explore our services, projects, and technology solutions.
+
+**Genlogy — Building modern digital solutions through technology.**
+
+---
+
+## 👥 Team
+
+Genlogy is built by a multidisciplinary team working across:
+
+* Full-Stack Web Development
+* AI & Machine Learning
+* IoT & Embedded Systems
+
+This combination allows us to approach projects from different technical perspectives and build complete technology solutions.
+
+---
+
+## 📌 Repository Purpose
+
+This repository contains the **Genlogy company/service website**, including:
+
+* Company information
+* Services
+* Project showcase
+* Project details
+* Contact information
+* Responsive web interface
+
+The website is built as a modern React-based application and serves as the digital presence of Genlogy.
+
+---
+
+## 📄 License
+
+This project is currently maintained as a private/company portfolio project.
+
+---
+
+### Genlogy
+
+**Technology. Ideas. Solutions.**
